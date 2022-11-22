@@ -190,7 +190,6 @@ class MainActivity : AppCompatActivity() {
         } else if (player1.size + player2.size == 9) {
             //თუ ფრეა
             gameOn = false
-            player1Count += 1
             score1tv.text = player1Count.toString()
 
             val builder = AlertDialog.Builder(this)
